@@ -1,12 +1,12 @@
 .card {
     border-radius: 2px;
-    height:250px;
-    height:250px;
+    height:240px;
     border: #b27b66 3px solid;
     margin: 1rem;
     position: relative;
     box-shadow: 2px 2px 5px rgba(39, 31, 31, 0.51);
     text-align: left;
+    font-family: 'Fredericka the Great', cursive;
   }
   
   .card > .img-container {
@@ -27,7 +27,7 @@
 
   .card > .content {
     margin-top: 10px;
-    color: #4f342a
+    color: #e83228
   }
 
   .card:chosen {

@@ -1,9 +1,21 @@
 .title {
     width: 100%;
-    text-align: left;
-    font-size: 3rem;
-    color: #e83228;
-    margin-bottom: 50px;
+    margin: 1px !important;
+    text-align: center;
+    font-size: 40px;
+    color: #ea0001;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Fredericka the Great', cursive;
+    text-shadow:
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25);
+    }
+
+  #title-image {
+    width: 30%;
+    margin-left: 100px;
   }

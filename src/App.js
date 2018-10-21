@@ -4,6 +4,7 @@ import Wrapper from "./Components/Wrapper/Wrapper"
 import Title from './Components/Title/Title'
 import friends from './friends.json'
 import './App.css';
+import Navbar from './Components/Navbar/navbar'
 
 class App extends Component {
   state = {
@@ -17,7 +18,8 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Curious George Clicky Game!</Title>
+        <Navbar><span id="score"> Score: </span>{"  "} <span id="topscore"> Top Score: </span>{" "} <span id="correct">Number Correct: {" "}</span></Navbar>
+        <Title>Memory Game!</Title>
         <p>Directions: Click on any character. After you click, the characters will reshuffle. Don't click on a character you've already clicked on!</p>
         {this.state.friends.map(friend => (
           <FriendCard

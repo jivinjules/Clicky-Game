@@ -1,5 +1,12 @@
-.title {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 50px;
+p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#score, #correct, #topscore {
+    color: white;
+    margin-left: 60px;
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
 }

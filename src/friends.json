@@ -70,5 +70,23 @@
       "name": "Steve & Betsy",
       "image": "/images/steve-betsy.jpg",
       "count": 0
+    },
+    {
+      "id": 13,
+      "name": "Mr. Quint",
+      "image": "/images/mr-quint.jpg",
+      "count": 0
+    },
+    {
+      "id": 14,
+      "name": "Mrs. Quint",
+      "image": "/images/mrs-quint.png",
+      "count": 0
+    },
+    {
+      "id": 15,
+      "name": "Gnocchi",
+      "image": "/images/gnocchi.jpg",
+      "count": 0
     }
   ]
