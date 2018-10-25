@@ -7,18 +7,12 @@ import './App.css';
 import Navbar from './Components/Navbar/navbar'
 
 class App extends Component {
-  constructor() {
-    super()
-
-    this.state = {
+state = {
       friends,
       score: 0,
       topScore: 0,
-      rightOrWrong: '',
       alreadyChosenIds: []  
     };
-    this.handleClick = this.handleClick.bind(this)
-  }
 
   //FISHER YATES SORTING FORMULA FOR SHUFFLING AN ARRAY
   shuffle = friendArray => {
@@ -31,7 +25,6 @@ class App extends Component {
       temp = friendArray[i]
       friendArray[i] = friendArray[j]
       friendArray[j] = temp
-      this.setState({ score: this.state.score + 1 })
       this.setState({ topScore: this.state.topScore + 1 })
     }
     // console.log("NEW ARRAY")
@@ -42,19 +35,41 @@ class App extends Component {
   handleClick = id => {
  
      console.log(id)
-    this.setState({ friends: this.shuffle(this.state.friends) })
-
-    // const chosenCard = this.state.friends
-    // const chosenCardId = friends.filter(friends => friend.id === id)
-//  const array = [];
-//  array.push(id)
-//  console.log(array)
+     if (this.state.alreadyChosenIds.indexOf(id) === -1) {
+       this.handleScoring();
+      this.setState({ alreadyChosenIds: this.state.alreadyChosenIds.concat(id) });
+        } else 
+          if (this.state.alreadyChosenIds.indexOf(id) >= 0) { 
+          this.handleEndOfGame();
+        }
   }
+
+  handleScoring = () => {
+////////******CHECK THE SCORING.************* */
+    this.setState({ score: this.state.score + 1 })
+    if (this.state.score >= this.state.topScore) {
+      this.setState({topScore: this.state.score})
+    } else if (this.state.score === 15) {
+      alert("WOW! YOU GOT THEM ALL CORRECT!")
+    }
+    this.setState({ friends: this.shuffle(this.state.friends) })
+  }
+
+  handleEndOfGame = () => {
+    alert("Sorry. Better Luck Next Time.")
+    this.setState({
+      score: 0,
+      topScore: this.state.topScore,
+      alreadyChosenIds: []
+      });
+    this.setState({ friends: this.shuffle(this.state.friends) })
+  };
+
 
   render() {
     return (
       <Wrapper>
-        <Navbar><span id="score"> Score: ={this.state.score} </span>{"  "} <span id="topscore"> Top Score: ={this.state.topScore}</span>{" "} <span id="correct"> Correct? {this.state.rightOrWrong} {" "}</span></Navbar>
+        <Navbar><span id="score"> Score: ={this.state.score} </span>{"  "} <span id="topscore"> Top Score: ={this.state.topScore}</span>{" "} <span id="correct"> {" "}</span></Navbar>
         <Title>Memory Game!</Title>
         <p>Directions: Click on any character. After you click, the characters will reshuffle. Don't click on a character you've already clicked on!</p>
         {this.state.friends.map(friend => (
@@ -64,6 +79,8 @@ class App extends Component {
             name={friend.name}
             image={friend.image}
             handleClick={this.handleClick}
+            handleScoring={this.handleScoring}
+            handleEndOfGame={this.handleEndOfGame}
 
           />
         ))}

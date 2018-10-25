@@ -3,90 +3,90 @@
       "id": 1,
       "name": "Curious George",
       "image": "/images/curious-george.png",
-      "count": 0
+      "alreadyChosenIds": false
     },
     {
       "id": 2,
       "name": "Hundley",
       "image": "/images/hundley.jpg",
-      "count": 0
+      "alreadyChosenIds": false
     },
     {
       "id": 3,
       "name": "Man with the Yellow Hat",
       "image": "/images/man-with-the-yellow-hat.jpg",
-      "count": 0
+      "alreadyChosenIds": false
     },
     {
       "id": 4,
       "name": "Professor Wiseman",
       "image": "/images/professor-wiseman.jpg",
-      "count": 0
+      "alreadyChosenIds": false
     },
     {
       "id": 5,
       "name": "Chef Pisghetti",
       "image": "/images/chef-pisghetti.jpg",
-      "count": 0
+      "alreadyChosenIds": false
     },
     {
       "id": 6,
       "name": "Mrs. Renkins",
       "image": "/images/mrs-renkins.jpg",
-      "count": 0
+      "alreadyChosenIds": false
     },
     {
       "id": 7,
       "name": "Charkie",
       "image": "/images/Charkie.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 8,
       "name": "Doorman",
       "image": "/images/doorman.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 9,
       "name": "Jumpy Squirrel",
       "image": "/images/jumpy-squirrel.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 10,
       "name": "Mr. Renkins",
       "image": "/images/mr-renkins.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 11,
       "name": "Bill",
       "image": "/images/bill.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 12,
       "name": "Steve & Betsy",
       "image": "/images/steve-betsy.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 13,
       "name": "Mr. Quint",
       "image": "/images/mr-quint.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 14,
       "name": "Mrs. Quint",
       "image": "/images/mrs-quint.png",
-      "chosenCard": false
+      "alreadyChosenIds": false
     },
     {
       "id": 15,
       "name": "Gnocchi",
       "image": "/images/gnocchi.jpg",
-      "chosenCard": false
+      "alreadyChosenIds": false
     }
   ]
