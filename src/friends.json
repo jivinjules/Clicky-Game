@@ -39,54 +39,54 @@
       "id": 7,
       "name": "Charkie",
       "image": "/images/Charkie.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 8,
       "name": "Doorman",
       "image": "/images/doorman.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 9,
       "name": "Jumpy Squirrel",
       "image": "/images/jumpy-squirrel.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 10,
       "name": "Mr. Renkins",
       "image": "/images/mr-renkins.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 11,
       "name": "Bill",
       "image": "/images/bill.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 12,
       "name": "Steve & Betsy",
       "image": "/images/steve-betsy.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 13,
       "name": "Mr. Quint",
       "image": "/images/mr-quint.jpg",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 14,
       "name": "Mrs. Quint",
       "image": "/images/mrs-quint.png",
-      "count": 0
+      "chosenCard": false
     },
     {
       "id": 15,
       "name": "Gnocchi",
       "image": "/images/gnocchi.jpg",
-      "count": 0
+      "chosenCard": false
     }
   ]
