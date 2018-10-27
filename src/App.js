@@ -12,7 +12,7 @@ class App extends Component {
     score: 0,
     topScore: 0,
     alreadyChosenIds: [],
-
+    correct: ""
   };
 
   //FISHER YATES SORTING FORMULA FOR SHUFFLING AN ARRAY
@@ -40,28 +40,32 @@ class App extends Component {
       this.setState({ alreadyChosenIds: this.state.alreadyChosenIds.concat(id) });
     } else
       if (this.state.alreadyChosenIds.indexOf(id) >= 0) {
+        this.setState({correct: "Oops...Double Click! New Game!"})
         this.handleEndOfGame();
       }
   }
 
   handleScoring = () => {
     ////////******CHECK THE SCORING.************* */
+    this.setState({correct: "YES! Good job"})
     const theScore =  this.state.score + 1 
     this.setState({score: theScore})
     if (theScore > this.state.topScore) {
       this.setState({ topScore: theScore })
     } else if (this.state.score === 15) {
-     alert("WOW! WHAT A MEMORY!!")
+    //  alert("WOW! WHAT A MEMORY!!")
     }
     this.setState({ friends: this.shuffle(this.state.friends) })
   }
 
   handleEndOfGame = () => {
-   alert("I'm sorry. You clicked the same card twice. Please try again")
+
+  //  alert("I'm sorry. You clicked the same card twice. Please try again")
     this.setState({
       score: 0,
       topScore: this.state.topScore,
-      alreadyChosenIds: []
+      alreadyChosenIds: [],
+      // correct: ''
     });
     this.setState({ friends: this.shuffle(this.state.friends) })
   };
@@ -71,7 +75,7 @@ class App extends Component {
     return (
       
         <Wrapper>
-          <Navbar><span id="score"> Score: ={this.state.score} </span>{"  "} <span id="topscore"> Top Score: ={this.state.topScore}</span>{" "} <span id="correct"> {" "}</span></Navbar>
+          <Navbar><span id="score"> Score: {this.state.score} </span>{"  "} <span id="topscore"> Top Score: {this.state.topScore}</span>{" "} <span id="correct"> Correct? {this.state.correct}{" "}</span></Navbar>
           <Title>Memory Game!</Title>
 
           <p>Directions: Click on any character. After you click, the characters will reshuffle. Don't click on a character you've already clicked on!</p>
