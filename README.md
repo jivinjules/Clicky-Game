@@ -8,6 +8,6 @@ Curious George Memory Game was created with React JS, CSS, and Bootstrap.
 To create a React App from scratch, simply run `npx create-react-app <name of app>`
 
 ## Heroku Deployment
-coming...
+[Curious George Clicky Game on Heroku](https://murmuring-garden-67933.herokuapp.com/)
 
 ![screenshot2](/public/images/screenshot2.jpg)
