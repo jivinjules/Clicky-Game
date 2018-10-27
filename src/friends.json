@@ -1,92 +1,98 @@
 [
-    {
-      "id": 1,
-      "name": "Curious George",
-      "image": "/images/curious-george.png",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 2,
-      "name": "Hundley",
-      "image": "/images/hundley.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 3,
-      "name": "Man with the Yellow Hat",
-      "image": "/images/man-with-the-yellow-hat.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 4,
-      "name": "Professor Wiseman",
-      "image": "/images/professor-wiseman.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 5,
-      "name": "Chef Pisghetti",
-      "image": "/images/chef-pisghetti.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 6,
-      "name": "Mrs. Renkins",
-      "image": "/images/mrs-renkins.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 7,
-      "name": "Charkie",
-      "image": "/images/Charkie.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 8,
-      "name": "Doorman",
-      "image": "/images/doorman.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 9,
-      "name": "Jumpy Squirrel",
-      "image": "/images/jumpy-squirrel.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 10,
-      "name": "Mr. Renkins",
-      "image": "/images/mr-renkins.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 11,
-      "name": "Bill",
-      "image": "/images/bill.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 12,
-      "name": "Steve & Betsy",
-      "image": "/images/steve-betsy.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 13,
-      "name": "Mr. Quint",
-      "image": "/images/mr-quint.jpg",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 14,
-      "name": "Mrs. Quint",
-      "image": "/images/mrs-quint.png",
-      "alreadyChosenIds": false
-    },
-    {
-      "id": 15,
-      "name": "Gnocchi",
-      "image": "/images/gnocchi.jpg",
-      "alreadyChosenIds": false
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Curious George",
+    "image": "/images/curious-george.png",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 2,
+    "name": "Hundley",
+    "image": "/images/hundley.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 3,
+    "name": "Man with the Yellow Hat",
+    "image": "/images/man-with-the-yellow-hat.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 4,
+    "name": "Professor Wiseman",
+    "image": "/images/professor-wiseman.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 5,
+    "name": "Chef Pisghetti",
+    "image": "/images/chef-pisghetti.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 6,
+    "name": "Mrs. Renkins",
+    "image": "/images/mrs-renkins.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 7,
+    "name": "Charkie",
+    "image": "/images/Charkie.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 8,
+    "name": "Doorman",
+    "image": "/images/doorman.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 9,
+    "name": "Jumpy Squirrel",
+    "image": "/images/jumpy-squirrel.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 10,
+    "name": "Mr. Renkins",
+    "image": "/images/mr-renkins.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 11,
+    "name": "Bill",
+    "image": "/images/bill.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 12,
+    "name": "Steve & Betsy",
+    "image": "/images/steve-betsy.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 13,
+    "name": "Mr. Quint",
+    "image": "/images/mr-quint.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 14,
+    "name": "Mrs. Quint",
+    "image": "/images/mrs-quint.png",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 15,
+    "name": "Gnocchi",
+    "image": "/images/gnocchi.jpg",
+    "alreadyChosenIds": false
+  },
+  {
+    "id": 16,
+    "name": "Allie",
+    "image": "/images/Allie.png",
+    "alreadyChosenIds": false
+  }
+]

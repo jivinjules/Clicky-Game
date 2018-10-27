@@ -50,7 +50,7 @@ class App extends Component {
     this.setState({score: theScore})
     if (theScore > this.state.topScore) {
       this.setState({ topScore: theScore })
-    } else if (this.state.score === 15) {
+    } else if (this.state.score === 16) {
      alert("WOW! WHAT A MEMORY!!")
     }
     this.setState({ friends: this.shuffle(this.state.friends) })
@@ -73,6 +73,7 @@ class App extends Component {
         <Wrapper>
           <Navbar><span id="score"> Score: ={this.state.score} </span>{"  "} <span id="topscore"> Top Score: ={this.state.topScore}</span>{" "} <span id="correct"> {" "}</span></Navbar>
           <Title>Memory Game!</Title>
+
           <p>Directions: Click on any character. After you click, the characters will reshuffle. Don't click on a character you've already clicked on!</p>
           {this.state.friends.map(friend => (
             <FriendCard
