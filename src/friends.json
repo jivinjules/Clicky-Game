@@ -88,11 +88,5 @@
     "name": "Gnocchi",
     "image": "/images/gnocchi.jpg",
     "alreadyChosenIds": false
-  },
-  {
-    "id": 16,
-    "name": "Allie",
-    "image": "/images/Allie.png",
-    "alreadyChosenIds": false
   }
 ]

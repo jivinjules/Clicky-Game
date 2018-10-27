@@ -50,7 +50,7 @@ class App extends Component {
     this.setState({score: theScore})
     if (theScore > this.state.topScore) {
       this.setState({ topScore: theScore })
-    } else if (this.state.score === 16) {
+    } else if (this.state.score === 15) {
      alert("WOW! WHAT A MEMORY!!")
     }
     this.setState({ friends: this.shuffle(this.state.friends) })
