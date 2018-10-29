@@ -1,21 +1,20 @@
 .title {
-    width: 100%;
-    margin: 1px !important;
-    text-align: center;
-    font-size: 40px;
-    color: #ea0001;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-family: 'Fredericka the Great', cursive;
-    text-shadow:
+  width: 100%;
+  margin: 1px !important;
+  text-align: center;
+  font-size: 36px;
+  color: #ea0001;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Fredericka the Great', cursive;
+  text-shadow:
     0 6px 1px rgba(0,0,0,.1),
     0 0 5px rgba(0,0,0,.1),
     0 1px 3px rgba(0,0,0,.3),
     0 3px 5px rgba(0,0,0,.2),
     0 5px 10px rgba(0,0,0,.25);
-    }
+}
 
-  #title-image {
-    width: 30%;
-    margin-left: 100px;
-  }
+.title__image {
+  height: 100px
+}
